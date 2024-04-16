@@ -10,6 +10,7 @@ class MMDropDownView extends StatefulWidget {
 }
 
 class _MMDropDownViewState extends State<MMDropDownView> {
+
   @override
   void initState() {
     // TODO: implement initState
@@ -38,6 +39,7 @@ class _MMDropDownViewState extends State<MMDropDownView> {
                 vertical: 10,
               ),
               children: [
+
                 DropdownButton(
                   items: viewModel.stateList
                       .map(
